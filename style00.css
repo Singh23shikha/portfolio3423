@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    display:flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    font-size: 1vw;
+    background-color: rgb(55, 54, 54);
+    width: 100%;
+    box-sizing: cover;
+
+}
+nav  a{
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    padding: 20px 30px;
+    color: azure;
+    text-decoration: none;
+}
+nav  a:hover{
+    text-decoration: underline;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 40px;
+    
+}
+#sec1{
+    #home {
+        /* background-color: #333; */
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        border: 5px solid #f6d9d9; 
+        box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
+      }
+}
+.head{
+    text-align: left;
+    color: #fff;
+    padding: 2rem;
+}
+.head h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+
+}
+.head p{
+font-size: 1.5rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+  .btn-primary {
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    /* margin-left: 50px; */
+    margin-top: 10rem;
+    border-radius: 0.7rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .btn-primary:hover {
+    background-color: #f39c12;
+    color: #fff;
+  }
+  
+section button:hover{
+    background-color: orangered;
+}
+section p{
+    font-size: 3vw;
+    padding: 2px;
+    
+    color: rgb(5, 10, 16);
+}
+#sec2 h1{
+    text-align: center;
+    
+    font-size: 50px;
+}
+.para{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 25px;
+    
+}
+.work{
+    
+    margin-top: 20px;
+    font-size: 2rem;
+
+}
+input{
+accent-color:  green;
+}
+sec3{
+    padding: 60px 0;
+}
+.skill{
+    text-align: center;
+    font-size: 3rem;
+}
+.pskill p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    color: rgb(114, 110, 110);
+
+}
+.grid{
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    
+    
+  
+}
+.grid-item{
+    
+    background-color: #f4efef;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+
+    text-align: center;
+    padding: 5px 8px;
+    height: 200px;
+    width: 450px;
+    
+
+}
+.grid-item h5{
+    color:black;
+    padding: 3px;
+    font-size: 25px;
+    margin: 20px;
+}
+.grid-item p{
+    color:rgb(157, 156, 156);
+    font-size: 15px;
+    
+}
+.grid-item:hover{
+    transform: translate(0px, -20px);
+}
+.footer-body h3{
+    text-align:center;
+    margin-bottom: 35px;
+    font-size: 20px;
+
+}
+.form{
+    border: 2px solid white;
+    box-shadow: 4px 4px 5px 5px rgb(220,220,220,0.3);
+    padding: 50px;
+    margin-bottom: 100px;
+}
+.form .name lable{
+    font-size: 15px;
+}
+.form .email lable{
+    font-size: 20px;
+}
+.form .message lable{
+    font-size: 20px;
+}
+.name{
+    margin-top: 10px;
+}
+.email{
+    margin-top: 20px;
+}
+.message{
+    margin-top: 20px;
+}
+.send input{
+    background-color:rgb(55, 54, 54) ;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-top: 100px;
+    padding: 8px 25px 8px 25px;
+}
+.name input[type="text"]{
+    width: 200px;
+    height: 40px;
+    margin-left: 48px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(220,220,220,0.3);
+}
+.email input[type="text"]{
+    width: 200px;
+    height: 40px;
+    margin-left: 48px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(220,220,220,0.3);
+}
+.message textarea{
+    width: 200px;
+    height: 58px;
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(220,220,220,0.3);
+}
+.send input[type="submit"]:hover{
+    background-color: white;
+    color: black;
+}
+.list ul {
+    list-style: none;
+    margin-left: 24px;
+    padding-left: 0;
+  }
+
+.list li {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    position: relative;
+    padding-left: 2.5rem;
+    margin-top:2rem;
+    
+  }
+  .list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1rem;
+    height: 1rem;
+    
+    background-color: #f8f9fa;
+    border-radius: 50%;
+    border: 2px solid #28a745;
+    transition: all 0.3s ease;
+  }
+  .list li:hover::before {
+    background-color: #28a745;
+    border-color: #f8f9fa;
+  }
+  @media screen and (max-width: 768px) {
+	header nav ul {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	header nav ul li {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	#contact form {
+		width: 100%;
+	}
+}
+
